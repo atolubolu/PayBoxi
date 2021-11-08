@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="icon" transform="translate(-571 -111)">
+    <g id="Ellipse_51" data-name="Ellipse 51" transform="translate(571 111)" fill="#fff" stroke="#ffd0be" stroke-width="1">
+      <circle cx="30" cy="30" r="30" stroke="none"/>
+      <circle cx="30" cy="30" r="29.5" fill="none"/>
+    </g>
+    <g id="noun_Advance_Organizer_553742" data-name="noun_Advance Organizer_553742" transform="translate(593 133)">
+      <g id="Layer_3" data-name="Layer 3">
+        <path id="advance_organizer" data-name="advance organizer" d="M21,9.22V5H16.78V9.22h1.909V10.89H16.78V12.8H15.11V10.89H13.2V9.22H15.11V5H10.89V9.22H12.8V10.89H10.89V12.8H9.22V10.89H7.311V9.22H9.22V5H5V9.22H6.911V10.89H5v4.22H6.911V16.78H5V21H9.22V19.089H10.89V21h4.22V19.089H16.78V21H21V16.78H19.089V15.11H21V10.89H19.089V9.22ZM9.22,18.689V16.78H7.311V15.11H9.22V13.2H10.89V15.11H12.8V16.78H10.89v1.909Zm9.468-1.909H16.78v1.909H15.11V16.78H13.2V15.11H15.11V13.2H16.78V15.11h1.909Z" transform="translate(-5 -5)" fill="#f8425f"/>
+      </g>
+    </g>
+  </g>
+</svg>

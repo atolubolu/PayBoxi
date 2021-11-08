@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Nunito', serif;
+}
+header{
+    margin-bottom: 120px; margin-top: 45px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header > p {
+    color: #4B4B4B;
+    font-size: 16px;
+    margin: 0;
+    text-transform: capitalize;
+    width: auto;
+}
+p > span {
+    color: #F8425F;
+    font-weight: bold;
+}
+.col-7 > img {
+    width: 100%; height: auto;
+}
+h4{
+    font-size: 32px;
+    color: #484848;
+    text-align: left;
+    font-weight: 800;
+}
+p{
+    font-size: 16px;
+    color: #797C82;
+    width: 80%;
+}
+#fname{
+    background-color: #0000000B;
+    width: 231px; height: 56px;
+    font-size: 16px;
+    color: #00000061;
+    margin-right: 8px;
+    border: none;
+    padding: 16px 50px;
+}
+#lname{
+    background-color: #0000000B;
+    width: 231px; height: 56px;
+    font-size: 16px;
+    color: #00000061;
+    margin-left: 8px;
+    border: none;
+    padding: 16px 50px;
+}
+#email{
+    width: 478px;
+    height: 56px;
+    background-color: #0000000B;
+    border: none;
+    padding: 16px 50px;
+    font-size: 16px;
+    color: #00000061;
+    margin-top: 20px;
+}
+#password{
+    width: 478px;
+    height: 56px;
+    background-color: #0000000B;
+    border: none;
+    padding: 16px 50px;
+    font-size: 16px;
+    color: #00000061;
+    margin-top: 20px;
+}
+#CA{
+    background-color: #F8425F;
+    height: 56px;
+    width: 478px;
+    border: none;
+    border-radius: 5px;
+    margin: 8px;
+    color: #ffffff;
+    font-size: 16px;
+}
+input :active{
+    border: none;
+    outline: none;
+}
+
