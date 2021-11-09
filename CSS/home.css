@@ -6,6 +6,14 @@ body{
 .container-fluid{
     width: 100%;
 }
+#img1 , #img5 {
+    width: 100%;
+    height: auto;
+}
+.foot-links{
+    display: flex;
+    flex-direction: row;
+}
 /* Header */
 .hd{
     position: fixed;
@@ -66,6 +74,12 @@ ul{
     display: flex;
     flex-direction: row;
 }
+header .tff{
+    margin-left: 25px;
+}
+/* #signin{
+    margin: 0 10%;
+} */
 /* First section */
     #first {
         padding: 100px 0 200px;
@@ -116,6 +130,68 @@ ul{
     .group{
         margin: 30px 0 25px;
     }
+/* Modal */
+.modal-title{
+    font-weight: bold;
+    color: #00234B;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-body > p{
+    width: 80%;
+    text-align: center; 
+    color: #797C82;
+    font-size: 14px;   
+}
+.input-container > input{
+    background-color: #0000000B;
+    color: #00000061;
+    font-size: 14px;
+    border: none;
+    height: 45px;
+    margin: 5px;
+    border-radius: 4px 4px 0 0;
+}
+.input-container{
+    margin: 20px 0;
+    width: 380px;
+}
+#first_name {
+    width: 46%;
+    padding: 0 0 0 36px ;
+    margin-right: 2%;
+}
+#last_name {
+    width: 46%;
+    padding-left: 16px;
+}
+#country{
+    width: 20%;
+}
+#phone{
+    width: 73%;
+}
+#work_email{
+    width: 97%;
+}
+#company_name{
+    width: 97%
+}
+#submit{
+    width: 97%;
+    background-color: #F8425F;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+.input-container > .fas{
+    position: absolute;
+    padding-left: 18px;
+    padding-top: 20px;
+    opacity: 0.5;
+}
 /* section-two */
     #sect2{
         display: flex;
@@ -222,6 +298,75 @@ ul{
         justify-content: center;
         padding: 0 7%;
     }
+/* Section 4 */
+#review{
+    margin-top: 75px;
+    margin-bottom: 150px;
+}
+.reviewhead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2D4059;
+}
+.reviewhead > h1 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.reviewhead > h3 {
+    font-size: 38px;
+    font-weight: 800;
+}
+.reviewhead > h6 {
+    font-size: 18px;
+}
+.carousel {
+    background-image: url(/IMAGES/Group\ 54194.svg);
+}
+.carousel-indicators > .active {
+    background-color: #F8425F;
+}
+.carousel-indicators > button {
+    border: 1px solid #F8425F !important;
+}
+.carousel-item {
+    box-shadow: 0 0 30px #00000029;
+    background-color: #fff;
+    width: 65%;
+    margin-left: 17.5% !important;
+    margin: 30px 0;
+    border-radius: 16px;
+}
+.recommend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+.recommend > img {
+    margin: 10px 0;
+}
+.recommendation{
+    color: #707070;
+    font-size: 16px;
+    width: 69%;
+    text-align: center;
+}
+.recommender{
+    color: #404142;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px;
+}
+.position {
+    color: #404142;
+    font-size: 14px;
+    margin: 5px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #F8425F;
+    border-radius: 50%;
+}
 /* section-5 */
 #pricing{
     background-image: linear-gradient(#F5F7F8,#FFFFFF);
@@ -438,6 +583,40 @@ footer{
     margin: 5px 0;
 }
 @media screen and (max-width: 768px) {
+    /* nav{
+        background-color:;
+    } */
+    ul{
+        flex-direction: column;
+    }
+    nav > div > span{
+        padding-left: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav > div > span > * {
+        margin: 8px 16px;
+    }
+    .secthd{
+        width: 60%;
+    }
+    .sect2hd{
+        font-size: 24px;
+        width: 90%;
+    }
+    .sect2txt{
+        font-size: 14px;
+    }
+    .sect4hd{
+        font-size: 24px;
+        width: 90%;
+    }
+    .sect4sub{
+        font-size: 14px;
+    }
+    .mobile{
+        padding-left: 100px; padding-right: 0;
+    }
     .col-6 > img{
         width: 90%;
     }
@@ -449,5 +628,80 @@ footer{
     }
     .boxtxt{
         font-size: 16px;
+    }
+    .pricing-cards{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #app > .container > .row > .col-6:last-of-type > img {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .first{
+        padding: 25px;
+    }
+    #img1{
+        width: 90%;
+    }
+    .ddd{
+        margin: 0px 5px 0 0;
+    }
+    .secthd{
+        width: 80%;
+        font-size: 25px;
+    }
+    .boxhd{
+        font-size:20px
+    }
+    .boxtxt{
+        font-size: 12px;
+    }
+    .third{
+        padding: 5%; padding-left: 10%;
+        width: 90%;
+        align-self: center;
+    }
+    .mobile{
+        padding: 5%;
+    }
+    #img5{
+        width: 100%;
+    }
+    .pricing-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing-card{
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .footer-info{
+        flex-direction: column;
+    }
+    .footer-logo{
+        margin-bottom: 20px;
+    }
+    .socials{
+        width: 250px;
+        margin: 5px 0 20px;
+    }
+    .socials > p{
+        width: fit-content;
+    }
+    #app > .container > .row{
+        flex-direction: column-reverse;
+    }
+    #app-img{
+        width: 100%
+    }
+    .app-store{
+        margin: 0;
+    }
+    .reviewhead > h3{
+        font-size: 26px;
+    }
+    .reviewhead > h6{
+        text-align: center;
     }
 }

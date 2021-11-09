@@ -3,8 +3,8 @@ body{
     font-family: 'Nunito', serif;
 }
 header{
-    margin-bottom: 120px; margin-top: 45px;
-    padding: 20px;
+    margin-bottom: 60px; margin-top: 20px;
+    padding: 20px; padding-top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,70 +20,152 @@ p > span {
     color: #F8425F;
     font-weight: bold;
 }
-.col-7 > img {
-    width: 100%; height: auto;
+#image {
+    width: 90%; height: auto;
+    margin-top: 80px;
+}
+.new_account {
+    display: flex;
+    flex-direction: column;
 }
 h4{
-    font-size: 32px;
+    font-size: 26px;
     color: #484848;
     text-align: left;
     font-weight: 800;
 }
 p{
-    font-size: 16px;
+    font-size: 14px;
     color: #797C82;
     width: 80%;
 }
+input{
+    font-size: 14px;
+}
 #fname{
     background-color: #0000000B;
-    width: 231px; height: 56px;
-    font-size: 16px;
+    width: 196px; height: 45px;
+    /* font-size: 16px; */
     color: #00000061;
-    margin-right: 8px;
     border: none;
     padding: 16px 50px;
 }
 #lname{
     background-color: #0000000B;
-    width: 231px; height: 56px;
-    font-size: 16px;
+    width: 196px; height: 45px;
+    /* font-size: 16px; */
     color: #00000061;
-    margin-left: 8px;
+    margin-left: 12px;
     border: none;
     padding: 16px 50px;
 }
 #email{
-    width: 478px;
-    height: 56px;
+    width: 410px;
+    height: 45px;
     background-color: #0000000B;
     border: none;
     padding: 16px 50px;
-    font-size: 16px;
+    /* font-size: 16px; */
     color: #00000061;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 #password{
-    width: 478px;
-    height: 56px;
+    width: 410px;
+    height: 45px;
     background-color: #0000000B;
     border: none;
     padding: 16px 50px;
-    font-size: 16px;
+    /* font-size: 16px; */
     color: #00000061;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 #CA{
     background-color: #F8425F;
-    height: 56px;
-    width: 478px;
+    height: 45px;
+    width: 410px;
     border: none;
     border-radius: 5px;
-    margin: 8px;
+    margin: 8px 0;
     color: #ffffff;
-    font-size: 16px;
+    /* font-size: 16px; */
+}
+label {
+    font-size: 12px;
 }
 input :active{
     border: none;
     outline: none;
 }
-
+.fas{
+    position: absolute;
+    padding-left: 16px;
+    padding-top: 15px;
+    opacity: 0.5;
+}
+.fa-eye{
+    padding-left: 378px;
+}
+.input-container1 {
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    #image{
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    .new_account {
+        align-items: center;
+    }
+    input{
+        font-size: 16px;
+    }
+    .input-container1{
+        width: 80%;
+        height: 56px;
+    }
+    #fname, #lname{
+        width: 48%;
+    }
+    #email, #password {
+        width: 100%;
+    }
+    #CA {
+        width: 80%;
+    }
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
+    label {
+        font-size: 16px;
+    }
+    .fa-eye{
+        padding-left: 70%;
+    }
+}
+@media screen and (max-width: 375px){
+    #fname, #lname {
+        width: 100%;
+    }
+    #lname{
+        margin: 15px 0;
+    }
+    .input-container1:first-of-type{
+        margin-bottom: 65px;
+    }
+    .input-container1 {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .fa-eye{
+        padding-left: 60%;
+    }
+    label{
+        font-size: 12px;
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+        width: 90%;
+    }
+}
