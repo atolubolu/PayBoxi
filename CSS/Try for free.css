@@ -19,6 +19,7 @@ header > p {
 p > a {
     color: #F8425F !important;
     font-weight: bold !important;
+    text-decoration: none;
 }
 #image {
     width: 90%; height: auto;
@@ -103,7 +104,11 @@ input :active{
     opacity: 0.5;
 }
 .fa-eye{
-    padding-left: 378px;
+    margin-left: 378px;
+}
+
+.fa-eye:hover {
+    cursor: pointer;
 }
 .input-container1 {
     margin-bottom: 20px;
@@ -140,7 +145,7 @@ input :active{
         font-size: 16px;
     }
     .fa-eye{
-        padding-left: 70%;
+        margin-left: 70%;
     }
 }
 @media screen and (max-width: 425px) {
@@ -154,7 +159,7 @@ input :active{
         margin-bottom: 5px;
     }
     .fa-eye{
-        padding-left: 60%;
+        margin-left: 60%;
     }
     .input-container1:first-of-type {
         margin-bottom: 15px;
@@ -176,7 +181,7 @@ input :active{
         margin-bottom: 15px;
     }
     .fa-eye{
-        padding-left: 60%;
+        margin-left: 60%;
     }
     label{
         font-size: 12px;

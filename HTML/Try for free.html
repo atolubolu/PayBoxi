@@ -38,7 +38,7 @@
                 </div>
                 <div class="input-container1">
                     <i class="fas fa-lock"></i>
-                    <i class="fas fa-eye"></i>
+                    <i class="fas fa-eye" onclick="togglePassword()"></i>
                     <input type="password" name="password" id="password" placeholder="Password">
                 </div>
                 <label for="password">Password must be Alphanueric and at least 8 characters long</label><br>
@@ -47,4 +47,15 @@
             </div>
         </section>
     </div>
+    <script>
+        function togglePassword() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+    </body>
 </html>
