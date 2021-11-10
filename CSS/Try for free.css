@@ -153,6 +153,9 @@ input :active{
         margin-left: 0;
         margin-bottom: 5px;
     }
+    .fa-eye{
+        padding-left: 60%;
+    }
     .input-container1:first-of-type {
         margin-bottom: 15px;
         height: fit-content;
