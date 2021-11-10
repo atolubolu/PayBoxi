@@ -143,6 +143,21 @@ input :active{
         padding-left: 70%;
     }
 }
+@media screen and (max-width: 425px) {
+    #fname {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #lname {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    .input-container1:first-of-type {
+        margin-bottom: 15px;
+        height: fit-content;
+    }
+}
 @media screen and (max-width: 375px){
     #fname, #lname {
         width: 100%;
@@ -151,7 +166,7 @@ input :active{
         margin: 15px 0;
     }
     .input-container1:first-of-type{
-        margin-bottom: 65px;
+        margin-bottom: 10px;
     }
     .input-container1 {
         margin-top: 0;
