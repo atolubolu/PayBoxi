@@ -80,14 +80,17 @@ p:last-of-type {
     opacity: 0.6;
 }
 .fa-eye{
-    padding-left: 25%;
+    margin-left: 25%;
+}
+input[type="checkbox"]#remember_login:checked {
+    background-color: #F8425F;
 }
 @media screen and (max-width: 768px){
     a {
         margin-left: 50%;
     }
     .fa-eye{
-        padding-left: 80%;
+        margin-left: 80%;
     }
 }
 @media screen and (max-width: 425px){
@@ -95,7 +98,7 @@ p:last-of-type {
         margin-left: 20%;
     }
     .fa-eye {
-        padding-left: 70%;
+        margin-left: 70%;
     }
 }
 @media screen and (max-width: 375px){
