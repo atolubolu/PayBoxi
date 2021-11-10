@@ -16,9 +16,9 @@ header > p {
     text-transform: capitalize;
     width: auto;
 }
-p > span {
-    color: #F8425F;
-    font-weight: bold;
+p > a {
+    color: #F8425F !important;
+    font-weight: bold !important;
 }
 #image {
     width: 90%; height: auto;
@@ -167,5 +167,8 @@ input :active{
     p{
         font-size: 14px;
         width: 90%;
+    }
+    header > p{
+        font-size: 12px;
     }
 }
