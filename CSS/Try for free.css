@@ -104,7 +104,8 @@ input :active{
     opacity: 0.5;
 }
 .fa-eye{
-    margin-left: 378px;
+    margin-left: 26.5%;
+    padding: 0; padding-top: 15px;
 }
 
 .fa-eye:hover {
