@@ -3,7 +3,7 @@ body {
 }
 /* Scroll Bar */
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 15px !important;
 }
 ::-webkit-scrollbar-track {
     border-radius: 5px;
