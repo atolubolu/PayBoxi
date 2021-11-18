@@ -3,6 +3,21 @@ body{
     font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
 }
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(248, 66, 95, 0.8);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #F8425F;
+}
+/* close scroll bar */
 .container-fluid{
     width: 100%;
     padding: 0;
@@ -22,6 +37,7 @@ body{
     background-color: #fff;
     z-index: 999;
     padding: 0 10%;
+    margin: 0;
 }
 .navbar{
     margin: 0 2.5%;
@@ -41,6 +57,7 @@ body{
     font-style: normal;
     font-weight: bold;
     text-align: left; 
+    width: -moz-fit-content;
     width: fit-content;
     margin: 0.5rem 1rem;
     padding: 0;
@@ -719,6 +736,7 @@ footer{
         margin: 5px 0 20px;
     }
     .socials > p{
+        width: -moz-fit-content;
         width: fit-content;
     }
     #app > .container > .row{

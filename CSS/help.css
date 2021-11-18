@@ -1,8 +1,28 @@
 body {
     color: #00234B;
 }
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(248, 66, 95, 0.8);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #F8425F;
+}
+/* close scroll bar */
 .hd{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
     z-index: 999;
+    padding: 0 10%; 
+    margin: 0;
 }
 .faq{
     display: flex;
@@ -31,11 +51,16 @@ button {
     box-shadow: none !important;
     z-index: 0;
 }
-.accordion button:focus {
+/* .accordion button:focus {
     background-color: #F8425F !important;
     color: white !important;
     border: none !important;
     z-index: 0;
+} */
+.active, .accordion-button:hover{
+    background-color: #F8425F !important;
+    color: white !important;
+    border: none !important;
 }
 .dropdown {
     height: fit-content;
