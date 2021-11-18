@@ -51,16 +51,13 @@ button {
     box-shadow: none !important;
     z-index: 0;
 }
-/* .accordion button:focus {
+.active, .accordion-button:hover {
     background-color: #F8425F !important;
     color: white !important;
     border: none !important;
-    z-index: 0;
-} */
-.active, .accordion-button:hover{
-    background-color: #F8425F !important;
-    color: white !important;
-    border: none !important;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(/IMAGES/dropdown\ arrow\ 1.png);
 }
 .dropdown {
     height: fit-content;
