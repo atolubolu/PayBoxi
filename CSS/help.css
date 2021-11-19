@@ -29,7 +29,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 70px; padding-bottom: 20px;
-    background-image: url(/IMAGES/Group\ 56055.svg), url(/IMAGES/Group\ 54612.svg);
+    background-image: url(../IMAGES/Group\ 56055.svg), url(../IMAGES/Group\ 54612.svg);
     background-size: contain;
 }
 .faq > img {
@@ -57,10 +57,7 @@ button {
     border: none !important;
 }
 .accordion-button:not(.collapsed)::after{
-    background-image: url(/IMAGES/dropdown\ arrow\ 1.png);
-}
-.dropdown {
-    height: fit-content;
+    background-image: url(../IMAGES/dropdown\ arrow\ 1.png);
 }
 ul {
     padding: 0;

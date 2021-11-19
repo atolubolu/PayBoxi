@@ -346,7 +346,7 @@ header .tff{
     font-size: 18px;
 }
 .carousel {
-    background-image: url(/IMAGES/Group\ 54194.svg);
+    background-image: url(../IMAGES/Group\ 54194.svg);
 }
 .carousel-indicators > .active {
     background-color: #F8425F;
@@ -539,7 +539,7 @@ header .tff{
 }
 /* Footer */
 footer{
-    background-image: url(/IMAGES/Group\ 56054.png);
+    background-image: url(../IMAGES/Group\ 56054.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
